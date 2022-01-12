@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		61BC169E278EF7C0007D93DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BC169D278EF7C0007D93DA /* AppDelegate.swift */; };
 		61BC16A0278EF7C0007D93DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BC169F278EF7C0007D93DA /* SceneDelegate.swift */; };
-		61BC16A2278EF7C0007D93DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BC16A1278EF7C0007D93DA /* ViewController.swift */; };
 		61BC16A5278EF7C0007D93DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61BC16A3278EF7C0007D93DA /* Main.storyboard */; };
 		61BC16A8278EF7C0007D93DA /* ToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 61BC16A6278EF7C0007D93DA /* ToDoList.xcdatamodeld */; };
 		61BC16AA278EF7C2007D93DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61BC16A9278EF7C2007D93DA /* Assets.xcassets */; };
 		61BC16AD278EF7C2007D93DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61BC16AB278EF7C2007D93DA /* LaunchScreen.storyboard */; };
+		61BC16B5278EF835007D93DA /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BC16B4278EF835007D93DA /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		61BC169A278EF7C0007D93DA /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61BC169D278EF7C0007D93DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61BC169F278EF7C0007D93DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		61BC16A1278EF7C0007D93DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		61BC16A4278EF7C0007D93DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		61BC16A7278EF7C0007D93DA /* ToDoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoList.xcdatamodel; sourceTree = "<group>"; };
 		61BC16A9278EF7C2007D93DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61BC16AC278EF7C2007D93DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61BC16AE278EF7C2007D93DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61BC16B4278EF835007D93DA /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +58,9 @@
 		61BC169C278EF7C0007D93DA /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				61BC16B4278EF835007D93DA /* TableViewController.swift */,
 				61BC169D278EF7C0007D93DA /* AppDelegate.swift */,
 				61BC169F278EF7C0007D93DA /* SceneDelegate.swift */,
-				61BC16A1278EF7C0007D93DA /* ViewController.swift */,
 				61BC16A3278EF7C0007D93DA /* Main.storyboard */,
 				61BC16A9278EF7C2007D93DA /* Assets.xcassets */,
 				61BC16AB278EF7C2007D93DA /* LaunchScreen.storyboard */,
@@ -141,10 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61BC16A2278EF7C0007D93DA /* ViewController.swift in Sources */,
 				61BC169E278EF7C0007D93DA /* AppDelegate.swift in Sources */,
 				61BC16A0278EF7C0007D93DA /* SceneDelegate.swift in Sources */,
 				61BC16A8278EF7C0007D93DA /* ToDoList.xcdatamodeld in Sources */,
+				61BC16B5278EF835007D93DA /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
